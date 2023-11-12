@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Parking Station",
+    "slug": "secure",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/android/drawable-hdpi/logo.png",
+    "androidStatusBar": {
+      "backgroundColor": "#C2185B",
+      "translucent": false
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.ultimatum.parking",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_PHONE_STATE"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "92c486dc-b254-4cb8-8fb4-c37bfab2703a"
+      }
+    }
+  }
+}
